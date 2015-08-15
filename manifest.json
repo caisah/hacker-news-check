@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Hacker News Check",
+    "version": "1.0",
+
+    "description": "Checks if the current link was published on Hacker News",
+    "icons": {
+        "128": "images/icon128.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "images/icon19.png"
+        },
+        "default_title": "HackerNews Check"
+    },
+
+    "author": "Vlad Piersec",
+    "background": {
+       "page": "background.html",
+        "persistent": true
+    },
+
+    "permissions": [
+        "tabs",
+        "http://hn.algolia.com/*"
+  ]
+}
