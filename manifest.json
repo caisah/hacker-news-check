@@ -9,9 +9,9 @@
     },
     "browser_action": {
         "default_icon": {
-            "19": "images/icon19.png"
+            "19": "images/icon19-inactive.png"
         },
-        "default_title": "HackerNews Check"
+        "default_title": "URL was not submitted to HN"
     },
 
     "author": "Vlad Piersec",
